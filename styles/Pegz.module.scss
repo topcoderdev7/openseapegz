@@ -2,7 +2,7 @@
     height: 100%;
     overflow: hidden;
     font-weight: 300;
-    background-color: white;
+    background-color: rgb(255, 0, 0);
 }
 
 .mainContainer {
@@ -18,7 +18,7 @@
     .auctionSection {
         float:left;
         width: 65vw;
-        background-color: white;
+        background-color: rgb(0, 255, 34);
         overflow: auto;
         height: 100vh;
 
@@ -34,7 +34,7 @@
     }
 
     .rightSection {
-        background: white;
+        background: rgb(0, 162, 255);
         float: left;
         width: 30vw;
         overflow-y: scroll;
@@ -52,7 +52,7 @@
 
         .logomovie {
             width: 100%;
-            background-color: white;
+            background-color: rgb(132, 161, 0);
             // overflow: scroll;
 
             .logomovieItem {
