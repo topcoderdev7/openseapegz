@@ -98,7 +98,7 @@ export const PegzPage: React.FC<{}> = () => {
                         <div className="divsocial"> <a href="https://www.instagram.com/pegzpegzpegz/"> <img id="imgsocial" src="./PEGZ_files/mig.png" /></a></div>
                         <div className="divsocial"> <a href="https://discord.com/invite/aXQqKxKggh"> <img id="imgsocial" src="./PEGZ_files/mdiscord.png" /></a></div>
                     </div>
-                    <h2 className={styles.socialTextContent}> @ 2021 PEGZ | <a href="https://www.mattfurie.com/">MATT FURIE</a> | <a href="https://www.chainsaw.fun/">CHAIN/SAW</a></h2>
+                    <h8 className={styles.socialTextContent}> @ 2021 PEGZ | <a href="https://www.mattfurie.com/">MATT FURIE</a> | <a href="https://www.chainsaw.fun/">CHAIN/SAW</a></h8>
                     <br />
                     <br />
 
