@@ -10,6 +10,7 @@ export const PegzPage: React.FC<{}> = () => {
                         <tr>
                             <td>
                                 <div className={styles.nftItem}>
+                                    TEST
                                     <iframe src="./PEGZ_files/ksk65m.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe} />
                                 </div>
                                 <div className={styles.centerItem}>
