@@ -18,6 +18,7 @@ import { useUser } from "../../context/UserContext";
 import VideoPlayer from "../../components/VideoPlayer";
 import HeadWithImage from "../../components/HeadWithImage";
 import MarkdownRenderer from "../../components/MarkdownRenderer";
+import ModelViewer from "../../components/Asset/ModelViewer";
 
 const BuyWidgetNoSsr = dynamic(() => import("../../components/BuyWidget"), {
     ssr: false,
@@ -77,7 +78,6 @@ const SingleAssetPage: React.FC<{ asset: NFT }> = ({ asset }) => {
     const router = useRouter();
 
     const handle = useFullScreenHandle();
-        debugger;
     return (
         <main className={styles.singleAsset}>
             <HeadWithImage
@@ -111,7 +111,7 @@ const SingleAssetPage: React.FC<{ asset: NFT }> = ({ asset }) => {
                                         handle.active ? styles.active : ""
                                     }`}
                                 >
-                                    {asset?.file &&
+                                    {/* {asset?.file &&
                                         asset?.file?.type === "video" && (
                                             <VideoPlayer
                                                 playbackId={asset?.file?.link}
@@ -125,7 +125,8 @@ const SingleAssetPage: React.FC<{ asset: NFT }> = ({ asset }) => {
                                             src={asset.imageUrl}
                                             alt={asset.name}
                                         />
-                                    )}
+                                    )} */}
+                                    <ModelViewer src="/images/scene.glb" />
                                 </span>
                                 {asset?.file && asset?.file?.type === "pdf" && (
                                     <button
