@@ -15,10 +15,6 @@ class MyDocument extends Document {
                         type="module"
                         src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
                     />
-                    <script
-                        nomodule
-                        src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-                    />
                 </Head>
                 <body>
                     <Main />
