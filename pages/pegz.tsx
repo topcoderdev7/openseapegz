@@ -10,53 +10,130 @@ export const PegzPage: React.FC<{}> = () => {
                         <tr>
                             <td>
                                 <div className={styles.nftItem}>
-                                    TEST
-                                    <iframe src="./PEGZ_files/ksk65m.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe} />
+                                    <iframe
+                                        src="https://streamable.com/e/ksk65m?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
                                 </div>
                                 <div className={styles.centerItem}>
                                     <img src="./PEGZ_files/01creeper_icon133.png" width="18%" />
                                 </div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/e9hkir.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/e9hkir?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/02sherher_icon133.png" width="18%" /></div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/v9pq1c.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/v9pq1c?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/03smiler_icon133.png" width="18%" /></div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/nh0bjz.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/nh0bjz?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/04stoner_icon133.png" width="18%" /></div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/hzo3y7.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/hzo3y7?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/05bootlegger_icon133.png" width="18%" /></div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/88mojs.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/88mojs?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/06muncher_icon133.png" width="18%" /></div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/0592ol.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/0592ol?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/07pecker_icon133.png" width="18%" /></div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/ij7jaa.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/ij7jaa?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/08slimer_icon133.png" width="18%" /></div>
                             </td>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/q3mxv4.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/q3mxv4?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/09licker_icon133.png" width="18%" /></div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div className={styles.nftItem}><iframe src="./PEGZ_files/jcwhos.html" width="100%" height="100%" allow="autoplay" className={styles.nftIframe}></iframe></div>
+                                <div className={styles.nftItem}>
+                                    <iframe
+                                        src="https://streamable.com/e/jcwhos?autoplay=1&nocontrols=1"
+                                        width="100%"
+                                        height="100%"
+                                        allow="autoplay"
+                                        className={styles.nftIframe}
+                                    />
+                                </div>
                                 <div className={styles.centerItem}><img src="./PEGZ_files/10peper_icon133.png" width="18%" /></div>
                             </td>
                         </tr>
@@ -85,7 +162,37 @@ export const PegzPage: React.FC<{}> = () => {
                                 <div className={styles.mcEmbedSignupScrollItem}>
                                     <input type="text" name="b_fd780084ff583a4d5cd703a23_8f68958589" value="" />
                                 </div>
-                                <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" /></div>
+                                <div>
+                                    <input
+                                        type="submit"
+                                        className="button"
+                                        value="Subscribe"
+                                        name="subscribe"
+                                        id="mc-embedded-subscribe"
+                                        style={{
+                                            fontFamily:
+                                                '"Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif',
+                                            width: "25%",
+                                            margin: "10 0 10px 0",
+                                            minWidth: 90,
+                                            clear: "both",
+                                            backgroundColor: "rgb(0, 0, 0)",
+                                            border: "0 none",
+                                            borderRadius: 4,
+                                            letterSpacing: ".03em",
+                                            color: "#FFFFFF",
+                                            cursor: "pointer",
+                                            display: "inline-block",
+                                            fontSize: 15,
+                                            height: 22,
+                                            padding: 0,
+                                            textAlign: "center",
+                                            textDecoration: "none",
+                                            verticalAlign: "top",
+                                            whiteSpace: "nowrap",
+                                        }}
+                                    />
+                                </div>
                             </div>
                         </form>
                     </div>
